@@ -5,7 +5,7 @@ public class Webscrape {
 	String article = new String();
 	int window_count = 0;
 	public static void main(String[] args)  throws JauntException {
-		Testonly obj = new Testonly();
+		Webscrape obj = new Webscrape();
 		DisplayArticle displayWindow = new DisplayArticle();
 		//Jaunt demo: searches for 'butterflies' at Google and prints urls of search results from first page.
 		UserAgent userAgent = new UserAgent();      //create new userAgent (headless browser)
